@@ -26,7 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
               children: [
                 Image.asset("assets/images/Mask group.png"),
                 Text(
-                  "Hello, Nidham",
+                  "Hello, Nirav",
                   style: GoogleFonts.poppins(
                       fontWeight: FontWeight.w600, fontSize: 16),
                 ),
