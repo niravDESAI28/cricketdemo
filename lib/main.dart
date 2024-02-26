@@ -1,4 +1,5 @@
 import 'package:boxcricket/EventsScreen/Filter_Screen.dart';
+import 'package:boxcricket/EventsScreen/detail_screen.dart';
 import 'package:boxcricket/EventsScreen/event_screen.dart';
 import 'package:boxcricket/HomeScreens/Discover_Screen.dart';
 import 'package:boxcricket/HomeScreens/Home_Screen.dart';
@@ -7,10 +8,16 @@ import 'package:boxcricket/HomeScreens/Payment_Screeen.dart';
 import 'package:boxcricket/HomeScreens/Payment_Sucess.dart';
 import 'package:boxcricket/HomeScreens/details_screen_package.dart';
 import 'package:boxcricket/LoadingScreen/Loading_screen.dart';
+import 'package:boxcricket/bookingscreen/addboxscreen.dart';
+import 'package:boxcricket/bookingscreen/filterbox.dart';
+import 'package:boxcricket/bookingscreen/mybooking.dart';
 import 'package:boxcricket/expanded_screen.dart';
 import 'package:boxcricket/LoginScreen/login_screen.dart';
 import 'package:boxcricket/onbodingScreens/onboding_screen.dart';
 import 'package:boxcricket/onbodingScreens/onboding_screen_second.dart';
+import 'package:boxcricket/profilescreen/editprofile.dart';
+import 'package:boxcricket/profilescreen/languagescreen.dart';
+import 'package:boxcricket/profilescreen/profilescreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -30,6 +37,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
+
       // home: LoadingScreen(),
       // home: ExpandedWidget(),
       // home: onbodingScreen(),
@@ -41,8 +49,16 @@ class MyApp extends StatelessWidget {
       // home: DetailScreen(),
       // home: PaymentScreen(),
       // home: PaymentSucess(),
-      home: EventScreen(),
+      // home: EventScreen(),
       // home: FilterScreen(),
+      // home: Details(),
+      // home: ConfirmationScreen(),
+      // home: AddboxScreen(),
+      // home: BoxFilterScreen(),
+      // home: MyBookingScreen(),
+      // home: EditprofileScreen(),
+      // home: LanguageScreen(),
+      home: ProfileScreen(),
     );
   }
 }
