@@ -50,7 +50,6 @@ class MyApp extends StatelessWidget {
       // home: PaymentScreen(),
       // home: PaymentSucess(),
       // home: EventScreen(),
-<<<<<<< HEAD
       // home: FilterScreen(),
       // home: Details(),
       // home: ConfirmationScreen(),
@@ -60,11 +59,7 @@ class MyApp extends StatelessWidget {
       // home: EditprofileScreen(),
       // home: LanguageScreen(),
       home: ProfileScreen(),
-=======
-      home: FilterScreen(),
-     
-
->>>>>>> 9f56b05ccb0dbdd23f5a7037ba4eadf2121b5f60
+      // home: FilterScreen(),
     );
   }
 }
